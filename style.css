@@ -22,11 +22,11 @@ body {
 @keyframes float {
 
     from {
-        transform: translateY(0px);
+        transform: translateY(0%);
     }
 
     to {
-        transform: translateY(-800px);
+        transform: translateY(-100%);
     }
 
     100% {
