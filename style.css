@@ -29,4 +29,8 @@ body {
         transform: translateY(-800px);
     }
 
+    100% {
+        opacity: 0;
+    }
+
 }
