@@ -1,0 +1,32 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    display: flex;
+}
+
+#person {
+    animation: float 10s ease-in;
+    animation-delay: 1s;
+}
+
+
+#laptop {
+    animation: float 8s ease-in;
+}
+
+@keyframes float {
+
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-800px);
+    }
+
+}
